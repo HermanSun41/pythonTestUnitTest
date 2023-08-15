@@ -7,7 +7,7 @@ class Test_calculation(unittest.TestCase):
 
     def test_add(self):   #we can make functions to test the various functions of our calculation program
         # here we call the add function from the calculation program with the test case 5,6 and store the result
-        actual_result = calculation.power(2, 3)
+        actual_result = calculation.power(2, 6)
         expected_result = 16 #we expect the addition of 5,6 to be 11
         #finally we check to see if the expected result matches the actual
         self.assertEqual(expected_result, actual_result)
